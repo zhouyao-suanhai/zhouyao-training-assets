@@ -1,3 +1,8 @@
+"""
+任务3.1.3：将积分验证案例封装成类
+目标函数：u(x) = exp(-x) * cos(2x)，区间 [0, 2π]
+可视化：只填充 u(x) > 0 的区域，并标注积分值与误差
+"""
 import numpy as np
 import scipy.integrate
 from sympy import symbols, integrate, exp, cos, simplify
